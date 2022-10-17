@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-17T07:11:29Z" name="Default suite" finished-at="2022-10-17T07:11:54Z" duration-ms="24810">
+    <groups>
+    </groups>
+    <test started-at="2022-10-17T07:11:29Z" name="Default test" finished-at="2022-10-17T07:11:54Z" duration-ms="24810">
+      <class name="Demo.ohrm">
+        <test-method is-config="true" signature="first()[pri:0, instance:Demo.ohrm@1f53a5dc]" started-at="2022-10-17T12:41:29Z" name="first" finished-at="2022-10-17T12:41:37Z" duration-ms="8368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method signature="mac()[pri:0, instance:Demo.ohrm@1f53a5dc]" started-at="2022-10-17T12:41:37Z" name="mac" finished-at="2022-10-17T12:41:47Z" duration-ms="9375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mac -->
+        <test-method signature="windoHandle()[pri:0, instance:Demo.ohrm@1f53a5dc]" started-at="2022-10-17T12:41:47Z" name="windoHandle" finished-at="2022-10-17T12:41:54Z" duration-ms="7033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windoHandle -->
+      </class> <!-- Demo.ohrm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

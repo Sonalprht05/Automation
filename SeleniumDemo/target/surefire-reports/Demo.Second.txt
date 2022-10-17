@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: Demo.Second
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.767 s <<< FAILURE! - in Demo.Second
+Demo.Second.test1  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at Demo.Second.test1(Second.java:26)
+
+Demo.Second.test3  Time elapsed: 2.965 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at Demo.Second.test3(Second.java:44)
+
+Demo.Second.test2  Time elapsed: 2.01 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at Demo.Second.test2(Second.java:35)
+
+Demo.Second.last  Time elapsed: 4.015 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at Demo.Second.last(Second.java:53)
+
